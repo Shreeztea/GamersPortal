@@ -8,7 +8,6 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center">
           <img src="/logo.png" alt="WASD Arena Logo" className="h-8 mr-4" />
-          <h1 className="text-lg font-bold">WASD Arena</h1>
         </div>
         {/* Search Bar */}
         <div className="flex mx-4 justify-center">
