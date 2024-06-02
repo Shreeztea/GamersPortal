@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
-          <img src="/logo.png" alt="WASD Arena Logo" className="h-8 mr-4" />
+          <img src=".Assets/logo.png" alt="WASD Arena Logo" className="h-8 mr-4" />
         </div>
         {/* Search Bar */}
         <div className="flex mx-4 justify-center">
