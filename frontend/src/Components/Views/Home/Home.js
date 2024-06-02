@@ -8,9 +8,10 @@ const Home = () => {
   const hookState = useCustomHook();
   return (
     <div className="bg-gray-950 text-white py-20 space-y-20">
-      <div className="p-4">
-        <h1 className="text-2xl font-bold mb-4 text-center">Welcome to the Home Page</h1>
-        <Slider />
+      <div className="container mx-auto text-center">
+          <h1 className="text-4xl font-bold mb-4">Welcome to WASD Arena</h1>
+          <p className="text-lg mb-8">Your ultimate destination for competitive gaming tournaments.</p>
+          <Slider />
       </div>
       <section className="bg-gray-800 text-white py-20 space-y-20">
         <Tournaments />
