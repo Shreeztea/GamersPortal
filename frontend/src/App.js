@@ -7,9 +7,9 @@ import Home from './Components/Views/Home/Home';
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen bg-black">
+    <div className="flex flex-col min-h-screen bg-blue-100">
       <Header />
-      <main className="flex-grow container mx-auto p-4">
+      <main className="p-0">
         <Home />
       </main>
       <Footer />
