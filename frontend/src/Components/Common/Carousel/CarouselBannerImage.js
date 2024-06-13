@@ -2,7 +2,7 @@ const CarouselBannerImage = ({ image, link, active, label, description }) => {
     return (
         <>
             <div className={`carousel-item ${active === "active" ? "active" : ""}`}>
-                <img src={image} className="d-block w-100" alt="..." />
+                <img src={image} className="d-block w-100 h-64 md:h-96 object-cover" alt="..." />
                 {label &&
                 <div className="carousel-caption d-none d-md-block">
                     <h5>{label}</h5>
