@@ -1,8 +1,11 @@
 // Components/Views/Home/Home.js
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
 import React from 'react';
 import useCustomHook from '../../../hooks/useCustomHook';
 import { Slider } from '../../Common';
 import Tournaments from '../Tournaments/Tournaments';
+import BannerSlider from '../../Common/Slider/BannerSlider';
 
 const Home = () => {
   const hookState = useCustomHook();
@@ -11,7 +14,8 @@ const Home = () => {
       <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold mb-4">Welcome to WASD Arena</h1>
           <p className="text-lg mb-8">Your ultimate destination for competitive gaming tournaments.</p>
-          <Slider />
+          {/* <Slider /> */}
+          <BannerSlider/>
       </div>
       <section className="bg-gray-800 text-white py-20 space-y-20">
         <Tournaments />
