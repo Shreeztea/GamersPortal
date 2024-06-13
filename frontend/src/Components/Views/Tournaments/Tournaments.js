@@ -4,7 +4,7 @@ import CarouselItem from '../../Common/Carousel/CarouselItem';
 import CarouselBannerImage from '../../Common/Carousel/CarouselBannerImage';
 const Tournaments = () => {
   return <>
-    <Carousel>
+    <Carousel id="tournamentsCarousel">
       <CarouselItem active="active">
         <Card title="Card title" text="Some quick example text to build on the card title and make up the bulk of the card's content." image="https://pixlr.com/images/index/product-image-one.webp" link="fb.com" />
         <Card title="Card title" text="Some quick example text to build on the card title and make up the bulk of the card's content." image="https://pixlr.com/images/index/product-image-one.webp" link="fb.com" />
