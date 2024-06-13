@@ -17,9 +17,10 @@ const Home = () => {
           {/* <Slider /> */}
           <BannerSlider/>
       </div>
-      <section className="bg-gray-800 text-white py-20 space-y-20">
-        <Tournaments />
-      </section>
+        <Tournaments id="tournyone" title="Upcoming Tournament"/>
+        <Tournaments id="tournytwo" title="Ongoing Tournament"/>
+        <Tournaments id="tournythree" title="Past Tournament"/>
+
     </div>
   );
 };
